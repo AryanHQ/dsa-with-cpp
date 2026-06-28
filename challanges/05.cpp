@@ -18,7 +18,7 @@ int main() {
 
         cout << "Here is your extra 10 bags: " << Tea_bags << endl;
     }else{
-        cout << "You have " << Tea_bags << " tea bags" << endl;
+        cout << "You have " << Tea_bags << " tea bags.." << endl;
     }    
     return 0;
 }
