@@ -7,20 +7,21 @@ using namespace std;
 
 int main()
 {
-
     int Tea_pack;
     double Price_per_pack;
 
-    cout << "How many tea packs you want: " << endl;
+    cout << "How many tea packs you want: ";
     cin >> Tea_pack;
 
-    cout << "Enter the price per pack: " << endl;
+    cout << "Enter the price per pack: ";
     cin >> Price_per_pack;
 
-    double Total_price(Price_per_pack * Tea_pack);
-    double Tax(Total_price * 0.1);
-    double Final_cost(Total_price + Tax);
+    double Total_price (Price_per_pack * Tea_pack);
+    double Tax (Total_price * 0.10);
+    double Final_price (Total_price + Tax);
 
-    cout << "You have to pay: " << Final_cost << " including 10% tax" << endl;
+    cout << "You have to pay: " << Final_price << " including 10% tax" << endl;
+
+
     return 0;
 }
