@@ -1,4 +1,4 @@
-/ /Challenge 3: Relational and Logical Operators
+//Challenge 3: Relational and Logical Operators
 // A tea subscription service offers a discount if the user buys more than 12 cups or if they are a member for more than a year. Write a program that checks if the user qualifies for a discount based on their input.
 
 #include <iostream>
