@@ -29,7 +29,7 @@ public:
       }
      cout << "\n";
     }
-// new
+// ne
 
 
 
