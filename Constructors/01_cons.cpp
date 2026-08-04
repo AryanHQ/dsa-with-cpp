@@ -27,7 +27,7 @@ public:
       {
         cout << ingredient << "";
       }
-     cout << endl;
+     cout << "\n";
     }
 
 
