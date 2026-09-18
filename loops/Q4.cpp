@@ -2,22 +2,17 @@
 using namespace std;
 
 int main() {
-
-    int n;
-    cin >> n;
-
-    int sum = 0;
-
-    for (int i = 2; i <= n; i++)
-{
-    if (i % 2 == 0)
-    {
-        sum = i + sum;
-    }
-
-}  
-    cout << sum << "\n";
-
+ int n;
+ cin >> n;
+ int lastdigit , c = 0;
+ while (n>0)
+ {
+   lastdigit = n%10;
+   n = n/10;
+   c++;
+}
+cout << c << "\n";
+  
 
 
     return 0;
