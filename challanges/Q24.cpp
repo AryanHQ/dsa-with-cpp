@@ -1,28 +1,28 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int n;
     cin >> n;
-    int lastd = 0;
-    int product = 1;
-
-
-    while (n > 0)
+    int zero = 0;
+    int digit = 0;
+    while (n>0)
     {
-        lastd = n %10;
+        digit = n % 10;
         n = n/10;
-        cout << lastd << "\n";
 
-        product = product * lastd;
-
+        if (digit  == 0)
+        {
+            zero++;
+        }
+        
+        
+        
     }
-    cout << product << "\n";
+    cout  << zero << "\n";
+   
     
-
-
-
-
 
     return 0;
 }
